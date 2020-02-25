@@ -1,0 +1,22 @@
+{
+  "name": "jslearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sortowanie.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takjakchca/JsLearning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Takjakchca/JsLearning/issues"
+  },
+  "homepage": "https://github.com/Takjakchca/JsLearning#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
