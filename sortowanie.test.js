@@ -22,12 +22,25 @@ test("Powinno umiec sortowac rozne wartosci", () => {
   // given
   const array = [
     {username: "Wojtek"},
-    {username: "Grzesiu"}
+    {username: "Grzesiu"},
+    {username: "Krzysiu"}
   ]
-  const isUserFirst = (user1, user2) = user1.username < user2.username
+  const isUserFirst = (user1, user2) => user1.username < user2.username
+
 
   //when
   const result = Sortowanie(array, "malejaco", isUserFirst)
 
+  expect(result).toStrictEqual([
+    {
+      username:"Wojtek"
+    },
+    {
+      username:"Krzysiu"
+    },
+    {
+      username:"Grzesiu"
+    }
+  ])
 
 })
