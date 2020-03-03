@@ -25,7 +25,7 @@ test("Powinno umiec sortowac rozne wartosci", () => {
     {username: "Grzesiu"},
     {username: "Krzysiu"}
   ]
-  const isUserFirst = (user1, user2) => user1.username < user2.username
+  const isUserFirst = (user1, user2) => user1.username > user2.username
 
 
   //when
